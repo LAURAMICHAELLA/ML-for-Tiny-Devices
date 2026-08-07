@@ -64,7 +64,7 @@ Este projeto demonstra como implementar um classificador SVM para o dataset Iris
 
 microML é uma implementação simplificada de machine learning para microcontroladores como Arduino, permitindo que você execute modelos de aprendizado de máquina diretamente em dispositivos embarcados.
 
-Seguir o outro README: ML_Arduino.md
+Seguir o outro README: [ML_Arduino](ML_Arduino.md)
 
 # References
 
