@@ -1,6 +1,6 @@
-# sbai-course
+# ML for Tiny Devices (based on sbai-course) - ESP32
 
-This is [SBAI 2023](https://sbai2023.com.br/sbai/) minicourse material. The course title is ***Portando Modelos IA para microcontroladores de 32 bits***.
+This is based on [SBAI 2023](https://sbai2023.com.br/sbai/) minicourse material. The course title is ***Portando Modelos IA para microcontroladores de 32 bits***.
 
 Follow steps below to create course environemnt and execute the lessons.
 
@@ -12,7 +12,7 @@ sudo apt-get install python3-pip -y
 pip3 install virtualenv 
 ```
 
-2. Create and activate virtualenv (`.sbai`):
+2. Create and activate virtualenv for your user, example (`.sbai`):
 ```bash
 python3 -m virtualenv .sbai
 source .sbai/bin/activate
