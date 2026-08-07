@@ -1,3 +1,31 @@
+# ML-for-Tiny Devices -Profa. Dra. Laura Michaella
+
+Refere-se ao campo de **TinyML (Tiny Machine Learning)**, uma área da tecnologia que permite rodar modelos de inteligência artificial diretamente em hardwares extremamente limitados, como microcontroladores, sensores e dispositivos de Internet das Coisas (IoT).
+
+Em vez de enviar os dados para a nuvem para serem processados, o próprio dispositivo toma as decisões localmente.
+
+## Características Principais
+
+* **Baixíssimo consumo:** Dispositivos operam com miliwatts (mW) ou microwatts (μW), permitindo que funcionem por meses ou anos com uma única bateria de relógio.
+* **Hardware limitado:** Modelos rodam em chips com menos de 1 MB de memória RAM e armazenamento Flash.
+* **Latência zero:** Como o processamento é local, a resposta é imediata, sem depender de internet.
+* **Privacidade:** Os dados (como áudio ou imagens de sensores) não saem do dispositivo.
+
+## Como um modelo cabe em um "Tiny Device"?
+
+Modelos tradicionais de IA são gigantescos. Para fazê-los caber em microcontroladores, são usadas técnicas de otimização:
+
+1. **Quantização:** Converte os números do modelo de alta precisão (Float32) para formatos menores (Int8), reduzindo o tamanho do arquivo em até 4 vezes.
+2. **Poda (Pruning):** Remove conexões neurais que não impactam o resultado final.
+3. **Destilação de Conhecimento:** Treina um modelo minúsculo para imitar o comportamento de um modelo grande.
+
+## Hardwares e Ferramentas Comuns
+
+* **Placas populares:** Arduino Nano 33 BLE Sense, Raspberry Pi Pico, ESP32 e chips STM32.
+* **Frameworks de Software:** TensorFlow Lite for Microcontrollers (TFLite Micro), Edge Impulse e MicroTVM.
+
+# Vamos começar?
+
 # ML for Tiny Devices (based on sbai-course) - ESP32
 
 This is based on [SBAI 2023](https://sbai2023.com.br/sbai/) minicourse material. The course title is ***Portando Modelos IA para microcontroladores de 32 bits***.
