@@ -24,7 +24,7 @@ Modelos tradicionais de IA são gigantescos. Para fazê-los caber em microcontro
 * **Placas populares:** Arduino Nano 33 BLE Sense, Raspberry Pi Pico, ESP32 e chips STM32.
 * **Frameworks de Software:** TensorFlow Lite for Microcontrollers (TFLite Micro), Edge Impulse e MicroTVM.
 
-* Vamos começar?
+# Vamos começar?
 
 # ML for Tiny Devices (based on sbai-course) - ESP32
 
