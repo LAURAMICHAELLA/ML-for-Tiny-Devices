@@ -24,7 +24,7 @@ Modelos tradicionais de IA são gigantescos. Para fazê-los caber em microcontro
 * **Placas populares:** Arduino Nano 33 BLE Sense, Raspberry Pi Pico, ESP32 e chips STM32.
 * **Frameworks de Software:** TensorFlow Lite for Microcontrollers (TFLite Micro), Edge Impulse e MicroTVM.
 
-## Vamos começar?
+* Vamos começar?
 
 # ML for Tiny Devices (based on sbai-course) - ESP32
 
@@ -86,6 +86,9 @@ sudo adduser $USER $(stat --format="%G" /dev/ttyACM0 )
 
 8. Reboot your PC and try again.
 
+ After the installations above, follow the slides directory for beginning developement in the root directory:
+[SNCT 2025](SNCT2025_laura.pdf)
+[SBAI 2023](SBAI 2023.pptx.pdf) or
 
 # microML para Arduino: Classificação do Dataset Iris
 Este projeto demonstra como implementar um classificador SVM para o dataset Iris usando a biblioteca microML no Arduino.
