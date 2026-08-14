@@ -87,8 +87,21 @@ sudo adduser $USER $(stat --format="%G" /dev/ttyACM0 )
 8. Reboot your PC and try again.
 
  After the installations above, follow the slides directory for beginning developement in the root directory:
-[SNCT 2025](SNCT2025_laura.pdf)
-[SBAI 2023](SBAI 2023.pptx.pdf) or
+[SNCT 2025](slide/SNCT2025_laura.pdf) or
+[SBAI 2023](slide/SBAI%202023.pptx) 
+
+For first experiments, you could to download the Iris dataset:  or using as code example [Example of model generates] (experiments/exp_02/iris_classifier.py)
+
+For initial experiments, you could download [the Iris dataset](https://www.kaggle.com/datasets/himanshunakrani/iris-dataset?resource=download) from Kaggle or use the code example in [Model Generation Example](experiments/exp_02/iris_classifier.py).
+
+In the [Model Generation Example](experiments/exp_02/iris_classifier.py) the Iris Dataset is charged using:
+
+```
+from sklearn.datasets
+import load_iris
+
+iris = load_iris() //  to get features and targets as numpy arrays.
+```
 
 # microML para Arduino: Classificação do Dataset Iris
 Este projeto demonstra como implementar um classificador SVM para o dataset Iris usando a biblioteca microML no Arduino.
