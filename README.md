@@ -86,7 +86,7 @@ sudo adduser $USER $(stat --format="%G" /dev/ttyACM0 )
 
 8. Reboot your PC and try again.
 
-9. After the installations...
+**9. After the installations...**
 
 navigate to the `slides` directory (`SNCT 2025` or `SBAI 2023`) to begin development.
 [SNCT 2025](slide/SNCT2025_laura.pdf) or
@@ -100,6 +100,8 @@ In this model generation example, the Iris dataset is loaded using:
 from sklearn.datasets import load_iris
 
 iris = load_iris()  # Get features and targets as numpy arrays
+```
+
 
 # microML para Arduino: Classificação do Dataset Iris
 Este projeto demonstra como implementar um classificador SVM para o dataset Iris usando a biblioteca microML no Arduino.
